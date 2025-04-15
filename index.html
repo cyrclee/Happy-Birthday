@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>HBD, My Ex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Menu Input Nama -->
+<div class="input-container" id="input-container">
+  <h1>Masukkan Nama Kamu</h1>
+  <input type="text" id="name-input" placeholder="Nama kamu" />
+  <button onclick="submitName()">Submit</button>
+</div>
+
+<!-- Halaman Ucapan HBD -->
+<div class="container" id="message-container" style="display: none;">
+  <h1>Happy Birthday 🎉</h1>
+  <p id="birthday-message"></p>
+  <div class="image-wrapper">
+  <img src="https://tenor.com/id/view/bday-gif-9766066143765607829.gif" alt="Gambar Lucu" class="funny-image">
+</div>
+  <button onclick="showMessage()">Kangen dikit 😔</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

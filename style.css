@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #ffe4e1, #ffc0cb);
+    overflow: hidden;
+    color: #333;
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2.8em;
+    color: #e75480;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1em;
+    width: 60%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border: 2px solid #e75480;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e75480;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d03b65;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .funny-image {
+    width: 30%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 20px;
+    object-fit: contain;
+  }
+  
+  .signature {
+    margin-top: 30px;
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Adding spacing below the image */
+  .container .image-wrapper {
+    margin-bottom: 20px; /* Give space for button */
+  }
+  
+  /* Falling hearts */
+  .heart {
+    position: fixed;
+    top: -10px;
+    font-size: 20px;
+    color: red;
+    animation: fall 5s linear infinite;
+    z-index: 1;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-100px) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+  
