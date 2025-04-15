@@ -8,7 +8,7 @@ function submitName() {
         `Untuk ${name}, <br>
        "Selamat bertambah usia yaa, adek! Terus jadi dirimu yang luar biasa dan semoga kebahagiaan selalu menyertaimu di setiap langkah,
         kk yakin adek bakal terus berkembang jadi versi terbaik dari diri adek. Apapun yang adek lakuin, 
-        kk selalu dukung dari jauh serta mendo'akan yang terbaik, semoga semua impian adek tercapai.".<br>
+        kk selalu dukung dari jauh serta mendo'akan yang terbaik, semoga semua impian adek tercapai." <br>
         sehat selalu yaa, i loved u.`;
     } else {
       alert("Tolong masukkan nama mantanmu 😢");
